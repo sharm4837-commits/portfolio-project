@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/contact";   // change to the Render URL after deployment
+const API_URL = "https://portfolio-backend-98qw.onrender.com/api/contact";   // change to the Render URL after deployment
 
 document.getElementById("contactForm").addEventListener("submit", async (e) => {
   e.preventDefault();
