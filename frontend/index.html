@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharmi S | Full Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h2 class="logo">Sharmi S</h2>
+    <ul>
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <p class="tag">Hello, I am</p>
+    <h1>Sharmi S</h1>
+    <h3>Full Stack Developer Intern</h3>
+    <p>I build responsive websites and REST APIs with HTML, CSS, JavaScript, Node.js and MongoDB.</p>
+    <a class="btn" href="#projects">View My Work</a>
+    <a class="btn outline" href="#contact">Contact Me</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech Artificial Intelligence &amp; Data Science student at J.N.N Institute of Engineering.
+    I completed the Full Stack Development Internship at ALKJ Technologies (21 May to 30 June 2026),
+    where I learned to build, connect and deploy complete web applications.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card"><h3>Front End</h3><p>HTML5, CSS3, Flexbox, Grid, Responsive Design</p></div>
+      <div class="card"><h3>JavaScript</h3><p>ES6, DOM, Fetch API, Async / Await</p></div>
+      <div class="card"><h3>Back End</h3><p>Node.js, Express.js, REST APIs</p></div>
+      <div class="card"><h3>Database &amp; Tools</h3><p>MongoDB, Git, GitHub, VS Code, Postman</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card"><h3>Responsive Landing Page</h3><p>Flexbox and Grid layout that adapts to any screen.</p><span>HTML · CSS</span></div>
+      <div class="card"><h3>To-Do App</h3><p>Add, complete and delete tasks using DOM manipulation.</p><span>JavaScript</span></div>
+      <div class="card"><h3>Weather App</h3><p>Live weather data using the Fetch API and JSON.</p><span>API · Async/Await</span></div>
+      <div class="card"><h3>To-Do with Backend</h3><p>CRUD REST API with Express.js and MongoDB.</p><span>Node · Express · MongoDB</span></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="status"></p>
+    </form>
+  </section>
+
+  <footer><p>&copy; 2026 Sharmi S · Built during the ALKJ Technologies Internship</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
